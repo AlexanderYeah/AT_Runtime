@@ -2,6 +2,9 @@ Tagged Pointer 是自从iPhone 5s 之后引入的特性
 
 1 先说一下iOS的内存布局
 
+
+![](https://github.com/AlexanderYeah/AT_Runtime/blob/master/3-Tagged%20Pointer/ex1.png)
+
 * 代码区：存放编译之后的代码
 * 数据段 ：字符串常量 ： NSString *hello = @"hello";已经初始化和未初始化的全局变量，静态变量
 * 堆：通过alloc，malloc,calloc 动态分配的内存空间
